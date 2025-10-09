@@ -88,6 +88,24 @@ Dalam program ini, saya menerapkan konsep ORM (Object Relational Mapping) secara
 <img width="358" height="114" alt="Screenshot 2025-10-10 005907" src="https://github.com/user-attachments/assets/7c5042a6-ed30-4f8d-a485-6a2fad3b5930" />
 
 
+## Penjelasan Singkat Program Setelah Menerapkan JDBC & ORM
+Setelah Menerapkan JDBC & ORM, program ini memiliki sedikit perubahan alur/output yang dimana jika kita ingin menampilkan data mobil pada output, Maka data yang ditampilkan/diambil adalah data yang sudah ada pada Database Mysql. Namun kita juga bisa menambah data baru, mengubah bahkan menghapus data melalui NetBeans lalu perubahan tersebut juga akan terjadi pada database.
+
+Disini jika kita memilih opsi lihat data mobil, maka data yang ditampilkan merupakan data dari database.
+
+<img width="755" height="246" alt="Screenshot 2025-10-10 001328" src="https://github.com/user-attachments/assets/65c063eb-f36e-4139-914e-7ab12ac34a1d" />
+
+<img width="1916" height="975" alt="Screenshot 2025-10-07 221643" src="https://github.com/user-attachments/assets/37a489a6-f632-427a-8820-01469db29a51" />
+
+
+Lalu jika kita menambahkan data mobil baru di Netbeans maka data mobil yang baru tersebut juga akan muncul/bertambah di database.
+
+<img width="696" height="310" alt="Screenshot 2025-10-10 001339" src="https://github.com/user-attachments/assets/7365c0d7-767c-434b-bd09-73b569070884" />
+
+<img width="1602" height="502" alt="Screenshot 2025-10-10 011835" src="https://github.com/user-attachments/assets/604392c9-a853-4c87-867f-bcb8d609eeb0" />
+
+
+
 ## Alur Program
 1. Program menampilkan menu utama berupa:
    - Tambah data mobil
