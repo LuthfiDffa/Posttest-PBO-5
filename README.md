@@ -63,16 +63,17 @@ Saya juga membuat file baru bernama Deskripsi.java yang berisi sebuah interface.
 ## Penerapan JDBC & ORM
 **1. JDBC (Java Database Connectivity)**
 
-Koneksi database dilakukan melalui class DB.java di package database. Class ini menggunakan driver com.mysql.cj.jdbc.Driver untuk menghubungkan program ke database MySQL.
+Koneksi database dilakukan melalui class DB.java di package database. Class ini menggunakan driver com.mysql.cj.jdbc.Driver untuk menghubungkan program ke database MySQL. Lalu pada program ini, JDBC juga digunakan untuk menjalankan perintah SQL seperti INSERT, SELECT, UPDATE, dan DELETE ke dalam database yang dibuat menggunakan XAMPP (phpMyAdmin).  
 
-<img width="324" height="40" alt="image" src="https://github.com/user-attachments/assets/cf4ac388-d8de-4ec8-b297-395957249ad1" />
+Letak JDBC (Java Database Connectivity):
 
- Lalu untuk pengujian koneksi dilakukan di file TestKoneksi.java.
- 
- <img width="366" height="59" alt="image" src="https://github.com/user-attachments/assets/8ce1c673-b9e1-4be4-9415-dc9bbd6d502f" />
+- Class DB.Java pada package Database (Berisi driver untuk terhubung ke database MySQL).
+- Class TestKoneksi.Java pada package Main (untuk mengetes apakah koneksi JDBC ke database MySQL sudah berhasil atau belum).
 
-Bisa terlihat pada output bahwa telah berhasil menyambungkan koneksi ke database
-<img width="669" height="147" alt="image" src="https://github.com/user-attachments/assets/266f16f3-22dd-472e-9c81-f0e83883a689" />
+
+<img width="360" height="46" alt="image" src="https://github.com/user-attachments/assets/68851132-695c-437e-a014-0cb2f74eaafb" />
+
+<img width="358" height="68" alt="image" src="https://github.com/user-attachments/assets/f498ea5c-27e9-4dfc-8def-013d0d8047cd" />
 
 
 **2. ORM (Object Relational Mapping)**
