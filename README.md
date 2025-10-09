@@ -78,9 +78,14 @@ Letak JDBC (Java Database Connectivity):
 
 **2. ORM (Object Relational Mapping)**
 
-Untuk penerapan ORM saya lakukan secara sederhana dengan mengaitkan class mobilsport sebagai representasi dari tabel mobil di database showroom_pbo. Lalu Setiap atribut dalam class (merk, model, tahun, harga) mewakili kolom pada tabel tersebut.
+Dalam program ini, saya menerapkan konsep ORM (Object Relational Mapping) secara sederhana, di mana class mobilsport berperan sebagai representasi dari tabel mobil di database showroom_pbo. Setiap atribut yang terdapat di dalam class (merk, model, tahun, harga) mewakili kolom-kolom pada tabel tersebut, sehingga struktur data pada program Java dapat terhubung langsung dengan struktur data di dalam database.
 
+ Letak ORM (Object Relational Mapping):
+ - Class mobilsport.java pada package model
+ - Class mobilsportcoupe.java pada package model
+ - Class mobilsportconvertible.java pada package model
 
+<img width="358" height="114" alt="Screenshot 2025-10-10 005907" src="https://github.com/user-attachments/assets/7c5042a6-ed30-4f8d-a485-6a2fad3b5930" />
 
 
 ## Alur Program
